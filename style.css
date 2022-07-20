@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: rgb(26, 56, 26);
+}
+
+.modal {
+  background-color: white;
+  width: 500px;
+  padding: 26px;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.close {
+  width: 20px;
+  height: 20px;
+}
+
+.modal-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(206, 202, 202);
+  padding-bottom: 26px;
+}
+
+.modal-links {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 26px;
+}
+
+.icon {
+  display: block;
+  width: 84px;
+  margin: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  display: block;
+  width: 120px;
+}
